@@ -1,13 +1,13 @@
 package main
+
 import (
-	"github.com/op/go-logging" 
 	"github.com/hyperledger/fabric-contract-api-go/contractapi"
+	"github.com/op/go-logging"
 )
 
 type MovieTicket struct {
 	contractapi.Contract
 }
-
 
 func main() {
 	log := logging.MustGetLogger(name)
